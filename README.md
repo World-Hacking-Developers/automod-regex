@@ -23,7 +23,7 @@ As there are lots of scammers that try to get you into a Whatsapp link or someth
 #### Crypto or investment spam
 These block the *"earn up to $10k monthly"*, *"my clients are making 15k per week"*, *"get up to $8k profit"* types of messages. Probably more useful for non-English-speaking servers. But you can tune the expressions for English-speaking servers as well.
 ```regex
-(earn|mak).*?[\d.,]+?k
+(earn|mak|made).*?[\d.,]+?k
 [\d.,]+?k.*?profit
 ```
 
